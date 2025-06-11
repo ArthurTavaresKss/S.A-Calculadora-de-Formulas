@@ -1,0 +1,1 @@
+Este é um projeto desenvolvido por mim como parte de uma Situação de Aprendizagem na escola Sesi Senai Catalão, no curso de Desenvolvimento de Sistemas. Essa Calculadora Funciona com 15 Fórmulas, em uma interface gráfica Swing.
