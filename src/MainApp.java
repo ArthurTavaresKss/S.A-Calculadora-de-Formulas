@@ -65,7 +65,7 @@ public class MainApp {
         UIManager.put("Button.foreground", Color.BLACK);
         UIManager.put("Button.focus", new Color(0, 0, 0, 0)); // remove efeito de foco
         UIManager.put("Button.maximumSize", new Dimension(150, 40));
-        UIManager.put("Button.border", new LineBorder(new Color(210, 210, 210), 2));
+        UIManager.put("Button.border", new LineBorder(new Color(17, 17, 17), 1));
 
 
         // Frame Principal
@@ -86,7 +86,7 @@ public class MainApp {
             JPanel menuPanel = new JPanel(new BorderLayout());
             menuPanel.setBackground(new Color(219, 219, 219));
             menuPanel.setPreferredSize(new Dimension(0, 150));
-            menuPanel.setBorder(new LineBorder(new Color(210, 210, 210), 2));
+            menuPanel.setBorder(new LineBorder(new Color(17, 17, 17), 1));
 
             // Panel Menu Cima
             JPanel menuCimaPanel = new JPanel(new BorderLayout());
@@ -180,7 +180,7 @@ public class MainApp {
                 botaoGeometriaBasica.setForeground(Color.BLACK);
                 botaoGeometriaBasica.setFocusPainted(false);
                 botaoGeometriaBasica.setAlignmentX(Component.CENTER_ALIGNMENT);
-                botaoGeometriaBasica.setBorder(new LineBorder(new Color(210, 210, 210), 2));
+                botaoGeometriaBasica.setBorder(new LineBorder(new Color(17, 17, 17), 1));
                 botaoGeometriaBasica.setMaximumSize(new Dimension(370, 75));
 
                 // Botão Geometria Espacial
@@ -190,7 +190,7 @@ public class MainApp {
                 botaoGeometriaEspacial.setForeground(Color.BLACK);
                 botaoGeometriaEspacial.setFocusPainted(false);
                 botaoGeometriaEspacial.setAlignmentX(Component.CENTER_ALIGNMENT);
-                botaoGeometriaEspacial.setBorder(new LineBorder(new Color(210, 210, 210), 2));
+                botaoGeometriaEspacial.setBorder(new LineBorder(new Color(17, 17, 17), 1));
                 botaoGeometriaEspacial.setMaximumSize(new Dimension(370, 75));
 
                 // Botão Matemática Financeira
@@ -200,7 +200,7 @@ public class MainApp {
                 botaoMatematicaFinanceira.setForeground(Color.BLACK);
                 botaoMatematicaFinanceira.setFocusPainted(false);
                 botaoMatematicaFinanceira.setAlignmentX(Component.CENTER_ALIGNMENT);
-                botaoMatematicaFinanceira.setBorder(new LineBorder(new Color(210, 210, 210), 2));
+                botaoMatematicaFinanceira.setBorder(new LineBorder(new Color(17, 17, 17), 1));
                 botaoMatematicaFinanceira.setMaximumSize(new Dimension(370, 75));
 
                 infoFlowPanel.add(new Box.Filler(new Dimension(0, 20), new Dimension(0, 20), new Dimension(0, 50)));
@@ -235,7 +235,7 @@ public class MainApp {
                         umOperando1TextField.setBackground(new Color(219, 219, 219));
                         umOperando1TextField.setFont(fonteCampos);
                         umOperando1TextField.setHorizontalAlignment(SwingConstants.CENTER);
-                        umOperando1TextField.setBorder(new LineBorder(new Color(210, 210, 210), 2));
+                        umOperando1TextField.setBorder(new LineBorder(new Color(17, 17, 17), 1));
                         umOperando1TextField.setPreferredSize(new Dimension(230, 30));
                         umOperando1Panel.add(umOperando1Label);
                         umOperando1Panel.add(umOperando1TextField);
@@ -268,7 +268,7 @@ public class MainApp {
                         doisOperando1TextField.setBackground(new Color(219, 219, 219));
                         doisOperando1TextField.setFont(fonteCampos);
                         doisOperando1TextField.setHorizontalAlignment(SwingConstants.CENTER);
-                        doisOperando1TextField.setBorder(new LineBorder(new Color(210, 210, 210), 2));
+                        doisOperando1TextField.setBorder(new LineBorder(new Color(17, 17, 17), 1));
                         doisOperando1TextField.setPreferredSize(new Dimension(230, 30));
                         doisOperando1Panel.add(doisOperando1Label);
                         doisOperando1Panel.add(doisOperando1TextField);
@@ -291,7 +291,7 @@ public class MainApp {
                         doisOperando2TextField.setBackground(new Color(219, 219, 219));
                         doisOperando2TextField.setFont(fonteCampos);
                         doisOperando2TextField.setHorizontalAlignment(SwingConstants.CENTER);
-                        doisOperando2TextField.setBorder(new LineBorder(new Color(210, 210, 210), 2));
+                        doisOperando2TextField.setBorder(new LineBorder(new Color(17, 17, 17), 1));
                         doisOperando2TextField.setPreferredSize(new Dimension(230, 30));
                         doisOperando2Panel.add(doisOperando2Label);
                         doisOperando2Panel.add(doisOperando2TextField);
@@ -325,7 +325,7 @@ public class MainApp {
                         tresOperando1TextField.setBackground(new Color(219, 219, 219));
                         tresOperando1TextField.setFont(fonteCampos);
                         tresOperando1TextField.setHorizontalAlignment(SwingConstants.CENTER);
-                        tresOperando1TextField.setBorder(new LineBorder(new Color(210, 210, 210), 2));
+                        tresOperando1TextField.setBorder(new LineBorder(new Color(17, 17, 17), 1));
                         tresOperando1TextField.setPreferredSize(new Dimension(230, 30));
                         tresOperando1Panel.add(tresOperando1Label);
                         tresOperando1Panel.add(tresOperando1TextField);
@@ -348,7 +348,7 @@ public class MainApp {
                         tresOperando2TextField.setBackground(new Color(219, 219, 219));
                         tresOperando2TextField.setFont(fonteCampos);
                         tresOperando2TextField.setHorizontalAlignment(SwingConstants.CENTER);
-                        tresOperando2TextField.setBorder(new LineBorder(new Color(210, 210, 210), 2));
+                        tresOperando2TextField.setBorder(new LineBorder(new Color(17, 17, 17), 1));
                         tresOperando2TextField.setPreferredSize(new Dimension(230, 30));
                         tresOperando2Panel.add(tresOperando2Label);
                         tresOperando2Panel.add(tresOperando2TextField);
@@ -371,7 +371,7 @@ public class MainApp {
                         tresOperando3TextField.setBackground(new Color(219, 219, 219));
                         tresOperando3TextField.setFont(fonteCampos);
                         tresOperando3TextField.setHorizontalAlignment(SwingConstants.CENTER);
-                        tresOperando3TextField.setBorder(new LineBorder(new Color(210, 210, 210), 2));
+                        tresOperando3TextField.setBorder(new LineBorder(new Color(17, 17, 17), 1));
                         tresOperando3TextField.setPreferredSize(new Dimension(230, 30));
                         tresOperando3Panel.add(tresOperando3Label);
                         tresOperando3Panel.add(tresOperando3TextField);
@@ -417,7 +417,7 @@ public class MainApp {
             // Panel Selecionar Operação Geometria Básica
             JPanel geometriaBasicaSelecionarOperacaoPanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 10));
             geometriaBasicaSelecionarOperacaoPanel.setBackground(new Color(215, 215, 215));
-            botaoGeometriaEspacial.setBorder(new LineBorder(new Color(210, 210, 210), 2));
+            botaoGeometriaEspacial.setBorder(new LineBorder(new Color(17, 17, 17), 1));
             geometriaBasicaSelecionarOperacaoPanel.setPreferredSize(new Dimension(400, 75));
             infoGeometriaBasicaBorderPanel.add(geometriaBasicaSelecionarOperacaoPanel, BorderLayout.NORTH);
 
@@ -427,7 +427,7 @@ public class MainApp {
                 botaoGeometriaBasicaSelecionarOperacao.setBackground(new Color(219, 219, 219));
                 botaoGeometriaBasicaSelecionarOperacao.setForeground(Color.BLACK);
                 botaoGeometriaBasicaSelecionarOperacao.setFocusPainted(false);
-                botaoGeometriaBasicaSelecionarOperacao.setBorder(new LineBorder(new Color(210, 210, 210), 2));
+                botaoGeometriaBasicaSelecionarOperacao.setBorder(new LineBorder(new Color(17, 17, 17), 1));
                 botaoGeometriaBasicaSelecionarOperacao.setPreferredSize(new Dimension(380, 55));
                 geometriaBasicaSelecionarOperacaoPanel.add(botaoGeometriaBasicaSelecionarOperacao);
 
@@ -435,7 +435,7 @@ public class MainApp {
             JPanel geometriaBasicaResultadoPanel = new JPanel();
             geometriaBasicaResultadoPanel.setBackground(new Color(215, 215, 215));
             geometriaBasicaResultadoPanel.setLayout(new BoxLayout(geometriaBasicaResultadoPanel, BoxLayout.Y_AXIS));
-            geometriaBasicaResultadoPanel.setBorder(new LineBorder(new Color(210, 210, 210), 2));
+            geometriaBasicaResultadoPanel.setBorder(new LineBorder(new Color(17, 17, 17), 1));
             geometriaBasicaResultadoPanel.setPreferredSize(new Dimension(400, 145));
             infoGeometriaBasicaBorderPanel.add(geometriaBasicaResultadoPanel, BorderLayout.SOUTH);
 
@@ -446,7 +446,7 @@ public class MainApp {
                 botaoResultadoGeometriaBasica.setForeground(Color.BLACK);
                 botaoResultadoGeometriaBasica.setFocusPainted(false);
                 botaoResultadoGeometriaBasica.setAlignmentX(Component.CENTER_ALIGNMENT);
-                botaoResultadoGeometriaBasica.setBorder(new LineBorder(new Color(210, 210, 210), 2));
+                botaoResultadoGeometriaBasica.setBorder(new LineBorder(new Color(17, 17, 17), 1));
                 botaoResultadoGeometriaBasica.setMaximumSize(new Dimension(380, 55));
 
                 // JTextField Resultado Geometria Básica
@@ -455,7 +455,7 @@ public class MainApp {
                 geometriaBasicaResultadoTextField.setBackground(new Color(219, 219, 219));
                 geometriaBasicaResultadoTextField.setFont(fonteCampos2);
                 geometriaBasicaResultadoTextField.setHorizontalAlignment(SwingConstants.CENTER);
-                geometriaBasicaResultadoTextField.setBorder(new LineBorder(new Color(210, 210, 210), 2));
+                geometriaBasicaResultadoTextField.setBorder(new LineBorder(new Color(17, 17, 17), 1));
                 geometriaBasicaResultadoTextField.setEditable(false);
                 geometriaBasicaResultadoTextField.setMaximumSize(new Dimension(370, 55));
                 geometriaBasicaResultadoTextField.setAlignmentX(Component.CENTER_ALIGNMENT);
@@ -498,7 +498,7 @@ public class MainApp {
             // Panel Selecionar Operação Geometria Espacial
             JPanel geometriaEspacialSelecionarOperacaoPanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 10));
             geometriaEspacialSelecionarOperacaoPanel.setBackground(new Color(215, 215, 215));
-            botaoGeometriaEspacial.setBorder(new LineBorder(new Color(210, 210, 210), 2));
+            botaoGeometriaEspacial.setBorder(new LineBorder(new Color(17, 17, 17), 1));
             geometriaEspacialSelecionarOperacaoPanel.setPreferredSize(new Dimension(400, 75));
             infoGeometriaEspacialBorderPanel.add(geometriaEspacialSelecionarOperacaoPanel, BorderLayout.NORTH);
 
@@ -508,7 +508,7 @@ public class MainApp {
                 botaoGeometriaEspacialSelecionarOperacao.setBackground(new Color(219, 219, 219));
                 botaoGeometriaEspacialSelecionarOperacao.setForeground(Color.BLACK);
                 botaoGeometriaEspacialSelecionarOperacao.setFocusPainted(false);
-                botaoGeometriaEspacialSelecionarOperacao.setBorder(new LineBorder(new Color(210, 210, 210), 2));
+                botaoGeometriaEspacialSelecionarOperacao.setBorder(new LineBorder(new Color(17, 17, 17), 1));
                 botaoGeometriaEspacialSelecionarOperacao.setPreferredSize(new Dimension(380, 55));
                 geometriaEspacialSelecionarOperacaoPanel.add(botaoGeometriaEspacialSelecionarOperacao);
 
@@ -516,7 +516,7 @@ public class MainApp {
             JPanel geometriaEspacialResultadoPanel = new JPanel();
             geometriaEspacialResultadoPanel.setBackground(new Color(215, 215, 215));
             geometriaEspacialResultadoPanel.setLayout(new BoxLayout(geometriaEspacialResultadoPanel, BoxLayout.Y_AXIS));
-            geometriaEspacialResultadoPanel.setBorder(new LineBorder(new Color(210, 210, 210), 2));
+            geometriaEspacialResultadoPanel.setBorder(new LineBorder(new Color(17, 17, 17), 1));
             geometriaEspacialResultadoPanel.setPreferredSize(new Dimension(400, 145));
             infoGeometriaEspacialBorderPanel.add(geometriaEspacialResultadoPanel, BorderLayout.SOUTH);
 
@@ -527,7 +527,7 @@ public class MainApp {
                 botaoResultadoGeometriaEspacial.setForeground(Color.BLACK);
                 botaoResultadoGeometriaEspacial.setFocusPainted(false);
                 botaoResultadoGeometriaEspacial.setAlignmentX(Component.CENTER_ALIGNMENT);
-                botaoResultadoGeometriaEspacial.setBorder(new LineBorder(new Color(210, 210, 210), 2));
+                botaoResultadoGeometriaEspacial.setBorder(new LineBorder(new Color(17, 17, 17), 1));
                 botaoResultadoGeometriaEspacial.setMaximumSize(new Dimension(380, 55));
 
                 // JTextField Resultado Geometria Espacial
@@ -536,7 +536,7 @@ public class MainApp {
                 geometriaEspacialResultadoTextField.setBackground(new Color(219, 219, 219));
                 geometriaEspacialResultadoTextField.setFont(fonteCampos2);
                 geometriaEspacialResultadoTextField.setHorizontalAlignment(SwingConstants.CENTER);
-                geometriaEspacialResultadoTextField.setBorder(new LineBorder(new Color(210, 210, 210), 2));
+                geometriaEspacialResultadoTextField.setBorder(new LineBorder(new Color(17, 17, 17), 1));
                 geometriaEspacialResultadoTextField.setEditable(false);
                 geometriaEspacialResultadoTextField.setMaximumSize(new Dimension(370, 55));
                 geometriaEspacialResultadoTextField.setAlignmentX(Component.CENTER_ALIGNMENT);
@@ -579,7 +579,7 @@ public class MainApp {
             // Panel Selecionar Operação Matemática Financeira
             JPanel matematicaFinanceiraSelecionarOperacaoPanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 10));
             matematicaFinanceiraSelecionarOperacaoPanel.setBackground(new Color(215, 215, 215));
-            botaoMatematicaFinanceira.setBorder(new LineBorder(new Color(210, 210, 210), 2));
+            botaoMatematicaFinanceira.setBorder(new LineBorder(new Color(17, 17, 17), 1));
             matematicaFinanceiraSelecionarOperacaoPanel.setPreferredSize(new Dimension(400, 75));
             infoMatematicaFinanceiraBorderPanel.add(matematicaFinanceiraSelecionarOperacaoPanel, BorderLayout.NORTH);
 
@@ -589,7 +589,7 @@ public class MainApp {
                 botaoMatematicaFinanceiraSelecionarOperacao.setBackground(new Color(219, 219, 219));
                 botaoMatematicaFinanceiraSelecionarOperacao.setForeground(Color.BLACK);
                 botaoMatematicaFinanceiraSelecionarOperacao.setFocusPainted(false);
-                botaoMatematicaFinanceiraSelecionarOperacao.setBorder(new LineBorder(new Color(210, 210, 210), 2));
+                botaoMatematicaFinanceiraSelecionarOperacao.setBorder(new LineBorder(new Color(17, 17, 17), 1));
                 botaoMatematicaFinanceiraSelecionarOperacao.setPreferredSize(new Dimension(380, 55));
                 matematicaFinanceiraSelecionarOperacaoPanel.add(botaoMatematicaFinanceiraSelecionarOperacao);
 
@@ -597,7 +597,7 @@ public class MainApp {
             JPanel matematicaFinanceiraResultadoPanel = new JPanel();
             matematicaFinanceiraResultadoPanel.setBackground(new Color(215, 215, 215));
             matematicaFinanceiraResultadoPanel.setLayout(new BoxLayout(matematicaFinanceiraResultadoPanel, BoxLayout.Y_AXIS));
-            matematicaFinanceiraResultadoPanel.setBorder(new LineBorder(new Color(210, 210, 210), 2));
+            matematicaFinanceiraResultadoPanel.setBorder(new LineBorder(new Color(17, 17, 17), 1));
             matematicaFinanceiraResultadoPanel.setPreferredSize(new Dimension(400, 145));
             infoMatematicaFinanceiraBorderPanel.add(matematicaFinanceiraResultadoPanel, BorderLayout.SOUTH);
 
@@ -608,7 +608,7 @@ public class MainApp {
                 botaoResultadoMatematicaFinanceira.setForeground(Color.BLACK);
                 botaoResultadoMatematicaFinanceira.setFocusPainted(false);
                 botaoResultadoMatematicaFinanceira.setAlignmentX(Component.CENTER_ALIGNMENT);
-                botaoResultadoMatematicaFinanceira.setBorder(new LineBorder(new Color(210, 210, 210), 2));
+                botaoResultadoMatematicaFinanceira.setBorder(new LineBorder(new Color(17, 17, 17), 1));
                 botaoResultadoMatematicaFinanceira.setMaximumSize(new Dimension(380, 55));
 
                 // JTextField Resultado Matemática Financeira
@@ -617,7 +617,7 @@ public class MainApp {
                 matematicaFinanceiraResultadoTextField.setBackground(new Color(219, 219, 219));
                 matematicaFinanceiraResultadoTextField.setFont(fonteCampos2);
                 matematicaFinanceiraResultadoTextField.setHorizontalAlignment(SwingConstants.CENTER);
-                matematicaFinanceiraResultadoTextField.setBorder(new LineBorder(new Color(210, 210, 210), 2));
+                matematicaFinanceiraResultadoTextField.setBorder(new LineBorder(new Color(17, 17, 17), 1));
                 matematicaFinanceiraResultadoTextField.setEditable(false);
                 matematicaFinanceiraResultadoTextField.setMaximumSize(new Dimension(370, 55));
                 matematicaFinanceiraResultadoTextField.setAlignmentX(Component.CENTER_ALIGNMENT);
@@ -642,6 +642,11 @@ public class MainApp {
             tituloMenuCima.setText("Geometria Básica");
             painelVisivel.setLocationRelativeTo(null);
             painelVisivel.setVisible(true);
+            operacaoGeral = 0;
+            botaoResultadoGeometriaBasica.setText("Resultado");
+            infoGeometriaBasicaBorderPanel.remove(umOperandoPanel);
+            infoGeometriaBasicaBorderPanel.remove(doisOperandoPanel);
+            infoGeometriaBasicaBorderPanel.remove(tresOperandoPanel);
         });
 
         // Geometria Espacial
@@ -654,6 +659,11 @@ public class MainApp {
             tituloMenuCima.setText("Geometria Espacial");
             painelVisivel.setLocationRelativeTo(null);
             painelVisivel.setVisible(true);
+            operacaoGeral = 0;
+            botaoResultadoGeometriaEspacial.setText("Resultado");
+            infoGeometriaEspacialBorderPanel.remove(umOperandoPanel);
+            infoGeometriaEspacialBorderPanel.remove(doisOperandoPanel);
+            infoGeometriaEspacialBorderPanel.remove(tresOperandoPanel);
         });
 
         // Matemática Financeira
@@ -666,6 +676,11 @@ public class MainApp {
             tituloMenuCima.setText("Matemática Financeira");
             painelVisivel.setLocationRelativeTo(null);
             painelVisivel.setVisible(true);
+            operacaoGeral = 0;
+            botaoResultadoMatematicaFinanceira.setText("Resultado");
+            infoMatematicaFinanceiraBorderPanel.remove(umOperandoPanel);
+            infoMatematicaFinanceiraBorderPanel.remove(doisOperandoPanel);
+            infoMatematicaFinanceiraBorderPanel.remove(tresOperandoPanel);
         });
 
         // Operação Geometria Básica
